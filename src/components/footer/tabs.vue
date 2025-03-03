@@ -6,9 +6,9 @@
       >
         <q-route-tab
          to="/"
-         name="mails"
+         name="chats"
          :ripple="false"
-         icon="mdi-chat-outline"
+         :icon="tab === 'chats' ? 'mdi-chat' : 'mdi-chat-outline'"
          label="Chats">
           <!-- content -->
          </q-route-tab>

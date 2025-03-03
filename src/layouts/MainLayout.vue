@@ -23,8 +23,12 @@
 
 <script setup>
 //
-import { useDrawerStore } from '../stores/drawer-store'
+import { ref } from 'vue'
 
-const { leftDrawerOpen } = useDrawerStore()
+const leftDrawerOpen = ref(false)
+
+function toggleLeftDrawer () {
+  leftDrawerOpen.value = !leftDrawerOpen.value
+}
 
 </script>
