@@ -9,13 +9,13 @@
          name="chats"
          :ripple="false"
          :icon="tab === 'chats' ? 'mdi-chat' : 'mdi-chat-outline'"
-         label="Chats">
+         >
           <!-- content -->
          </q-route-tab>
 
-        <q-tab name="alarms" icon="alarm" label="Alarms" />
-        <q-tab name="movies" icon="movie" label="Movies" />
-        <q-tab name="movies" icon="movie" label="Movies" />
+        <q-tab name="alarms" icon="eva-search" />
+        <q-tab name="movies" icon="movie" />
+        <q-tab name="movies" icon="movie" />
 
       </q-tabs>
 </template>
